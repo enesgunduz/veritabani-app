@@ -1,0 +1,39 @@
+body{
+ 
+}
+
+nav{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li{
+  list-style:none;
+}
+nav a{
+  text-decoration: none;
+  padding:10px 20px ;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(5, 75, 5);
+  
+}
+.app{
+  width: 1000px;
+  margin: auto;
+}
+
+#extensions{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+.extension{
+  width: 250px;
+  height: auto; 
+  background-color: #ddd;
+  padding: 15px 20px;
+}
